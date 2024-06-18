@@ -1,1 +1,1 @@
-# decoding-hate
+# Decoding Hate
