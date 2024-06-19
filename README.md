@@ -4,7 +4,6 @@
 **Decoding Hate** is a project aimed at analyzing and understanding LLMs reactions to hate speech. The repository contains the input datasets, models, prompts, and LLMs' generated responses related to the project.
 
 ## Contents
-- `data/` - Directory containing datasets used for the analysis.
 - `models/` - Directory containing the hate speech classification model and the finetuned models.
 - `prompts/` - Directory with the prompts used to reduce hate speech generation on LLMs.
 - `responses/` - Directory with the generated responses.
