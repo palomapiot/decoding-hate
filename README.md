@@ -10,6 +10,20 @@
 
 ## Citation
 
+If you use anything from this repository or paper, please cite:
+
+```bibtex
+@misc{piot2024decodinghateexploringlanguage,
+      title={Decoding Hate: Exploring Language Models' Reactions to Hate Speech}, 
+      author={Paloma Piot and Javier Parapar},
+      year={2024},
+      eprint={2410.00775},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.00775}, 
+}
+```
+
 If you use **MetaHateBERT**, please cite:
 
 ```bibtex
