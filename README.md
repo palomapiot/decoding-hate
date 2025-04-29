@@ -1,7 +1,9 @@
 # Decoding Hate
 
 ## Overview
-**Decoding Hate** is a project aimed at analyzing and understanding LLMs reactions to hate speech. The repository contains the input datasets, models, prompts, and LLMs' generated responses related to the project.
+**Decoding Hate** is a project aimed at analysing and understanding LLMs reactions to hate speech. The repository contains the input datasets, models, prompts, and LLMs' generated responses related to the project.
+
+*Paper accepted at NAACL 2025 Main Conference*
 
 ## Contents
 - `models/` - Directory containing the hate speech classification model and the finetuned models.
@@ -13,14 +15,22 @@
 If you use anything from this repository or paper, please cite:
 
 ```bibtex
-@misc{piot2024decodinghateexploringlanguage,
-      title={Decoding Hate: Exploring Language Models' Reactions to Hate Speech}, 
-      author={Paloma Piot and Javier Parapar},
-      year={2024},
-      eprint={2410.00775},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.00775}, 
+@inproceedings{piot-parapar-2025-decoding,
+    title = "Decoding Hate: Exploring Language Models' Reactions to Hate Speech",
+    author = "Piot, Paloma  and
+      Parapar, Javier",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.45/",
+    pages = "973--990",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Hate speech is a harmful form of online expression, often manifesting as derogatory posts. It is a significant risk in digital environments. With the rise of Large Language Models (LLMs), there is concern about their potential to replicate hate speech patterns, given their training on vast amounts of unmoderated internet data. Understanding how LLMs respond to hate speech is crucial for their responsible deployment. However, the behaviour of LLMs towards hate speech has been limited compared. This paper investigates the reactions of seven state-of-the-art LLMs (LLaMA 2, Vicuna, LLaMA 3, Mistral, GPT-3.5, GPT-4, and Gemini Pro) to hate speech. Through qualitative analysis, we aim to reveal the spectrum of responses these models produce, highlighting their capacity to handle hate speech inputs. We also discuss strategies to mitigate hate speech generation by LLMs, particularly through fine-tuning and guideline guardrailing. Finally, we explore the models' responses to hate speech framed in politically correct language."
 }
 ```
 
